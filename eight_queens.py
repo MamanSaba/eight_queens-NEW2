@@ -31,6 +31,8 @@ def is_safe(board, row, col):
         if board[i] + i == col + row:
             return False
     
+
+    
     return True
 
 
