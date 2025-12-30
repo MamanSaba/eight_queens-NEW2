@@ -40,7 +40,7 @@ def solve_queens_random(board, row=0, max_solutions=1000):
     """حل مسئله با استفاده از الگوریتم تصادفی"""
     if row == 8:
         return True
-    
+     
     # لیست ستون‌های ممکن را به صورت تصادفی مرتب می‌کنیم
     cols = list(range(8))
     random.shuffle(cols)
